@@ -8,8 +8,8 @@ export default function ChatTile(props) {
         <TouchableOpacity style={styles.container} onPress={()=>props.navigation.navigate("chatpage")} onLongPress={()=>setModalVisible(true)}>
             <Image source={require("../../assets/images.png")} style={styles.image} />
             <View>
-                <Text style={styles.title}>Shivam Akhouri</Text>
-                <Text style={styles.lastmsg}>Active 30m ago</Text>
+                <Text style={styles.title}>{props.name}</Text>
+                <Text style={styles.lastmsg}>Active {props.active}m ago</Text>
             </View>
             <View style={{ justifyContent: "center", alignItems: "center", flexDirection: "row" }}>
                 <TouchableOpacity style={{ alignItems: "center", padding: 8, borderRadius: 20 }}>

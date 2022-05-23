@@ -17,9 +17,7 @@ export default function Search(props) {
         </LinearGradient>
         <Text>-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -</Text>
         <SearchTile />
-        <SearchTile />
-        <SearchTile />
-        <SearchTile />
+       
         <BottomMenu navigation={props.navigation} />
     </View>
   );

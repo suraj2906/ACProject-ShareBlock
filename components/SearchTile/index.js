@@ -19,6 +19,45 @@ export default function SearchTile(props) {
                 </TouchableOpacity>
             </View>
         </View>
+        <View style={styles.container}>
+            <Image source={require("../../assets/images.png")} style={styles.image} />
+            <View>
+                <Text style={styles.title}>Suraj Shah</Text>
+                <Text style={styles.lastmsg}>Active 45m ago</Text>
+            </View>
+            <View style={{ justifyContent: "center", alignItems: "center", flexDirection: "row" }}>
+                <TouchableOpacity style={{ borderWidth: 0.3, borderColor: "black", flexDirection: "row", alignItems: "center", padding: 8, backgroundColor: "#d6fcd2", borderRadius: 5 }}>
+                    <Text style={{fontFamily: "Mitr_300Light", fontSize: 10}}>Catch Up!  </Text>
+                    <Feather name="send" size={10} color="#5e5e5e" />
+                </TouchableOpacity>
+            </View>
+        </View>
+        <View style={styles.container}>
+            <Image source={require("../../assets/images.png")} style={styles.image} />
+            <View>
+                <Text style={styles.title}>John Smith</Text>
+                <Text style={styles.lastmsg}>Active 25m ago</Text>
+            </View>
+            <View style={{ justifyContent: "center", alignItems: "center", flexDirection: "row" }}>
+                <TouchableOpacity style={{ borderWidth: 0.3, borderColor: "black", flexDirection: "row", alignItems: "center", padding: 8, backgroundColor: "#d6fcd2", borderRadius: 5 }}>
+                    <Text style={{fontFamily: "Mitr_300Light", fontSize: 10}}>Catch Up!  </Text>
+                    <Feather name="send" size={10} color="#5e5e5e" />
+                </TouchableOpacity>
+            </View>
+        </View>
+        <View style={styles.container}>
+            <Image source={require("../../assets/images.png")} style={styles.image} />
+            <View>
+                <Text style={styles.title}>Wanda Maximoff</Text>
+                <Text style={styles.lastmsg}>Active 55m ago</Text>
+            </View>
+            <View style={{ justifyContent: "center", alignItems: "center", flexDirection: "row" }}>
+                <TouchableOpacity style={{ borderWidth: 0.3, borderColor: "black", flexDirection: "row", alignItems: "center", padding: 8, backgroundColor: "#d6fcd2", borderRadius: 5 }}>
+                    <Text style={{fontFamily: "Mitr_300Light", fontSize: 10}}>Catch Up!  </Text>
+                    <Feather name="send" size={10} color="#5e5e5e" />
+                </TouchableOpacity>
+            </View>
+        </View>
             <Text style={{fontFamily: "Mitr_200ExtraLight"}}>~  ~  ~  ~  ~  ~  ~  ~</Text>
         </>
     );

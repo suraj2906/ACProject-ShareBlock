@@ -27,13 +27,13 @@ export default function ChatList(props){
             </LinearGradient>
             <Text>-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -</Text>
             <View style={{width:"100%", alignItems: "center"}}>
-                <ChatTile navigation={props.navigation}/>
-                <ChatTile />
-                <ChatTile />
-                <ChatTile />
-                <ChatTile />
-                <ChatTile />
-                <ChatTile />
+                <ChatTile name = "Shivam Akhouri" active="34" navigation={props.navigation}/>
+                <ChatTile name = "Suraj Shah" active="45"/>
+                <ChatTile name = "Dua Lipa" active="55"/>
+                <ChatTile name = "Frank Sinatra" active="43"/>
+                <ChatTile name = "Will Smith" active="15"/>
+                <ChatTile name = "Chris Rock" active="10"/>
+                <ChatTile name = "Chulbul Pandey" active="53"/>
             </View>
             <StatusBar />
             <BottomMenu navigation={props.navigation}/>
